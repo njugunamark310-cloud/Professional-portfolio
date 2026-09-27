@@ -156,6 +156,20 @@ body {
     color: #00a884;
     font-size: 16px;
 }
+.message a {
+    color: #00a884;
+    font-weight: bold;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
 
 .project {
     margin-top: 18px;
