@@ -33,3 +33,27 @@ body {
      font-size: 24px;
      letter-spacing: 2px;
 }
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    color: #e9edef;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.sidebar a:hover {
+    background: #2a3942;
+}
