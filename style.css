@@ -15,3 +15,21 @@ body {
     display: flex;
     min-height: 100vh;
 }
+
+.sidebar {
+    width: 30%;
+    max-width: 380px;
+    background: #202c33;
+    border-right: 1px solid #344047;
+}
+
+.sidebar-header {
+    padding: 25px;
+    border-right: 1px solid #344047;
+
+}
+
+.sidebar-header h1 {
+     font-size: 24px;
+     letter-spacing: 2px;
+}
