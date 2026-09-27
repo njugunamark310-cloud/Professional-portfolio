@@ -96,3 +96,33 @@ body {
     padding: 30px;
     overflow-y: auto;
 }
+
+.message {
+    max-width: 65%;
+    padding: 15px 18px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    line-height: 1.6;
+}
+
+.message.received {
+    background: #202c33;
+    margin-right: auto;
+    border-top-left-radius: 6px;
+}
+
+.message.sent {
+    background: #005c4b;
+    margin-left: auto;
+    border-top-right-radius: 4px;
+}
+
+.message p {
+    margin-bottom: 8px;
+}
+
+.message strong {
+    color: #00a884;
+    font-size: 16px;
+}
+
